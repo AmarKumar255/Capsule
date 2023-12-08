@@ -16,32 +16,32 @@ class Utils {
         private var score: Int = 0
         private val bioQuestions = arrayOf(
             Question(
-                "What is the primary function of blood in the human body?",
+                "The walls of the ventricles possess thick muscular projections, they are known as",
                 arrayOf(
-                    "Transporting oxygen",
-                    "Digesting food",
-                    "Producing energy",
-                    "Filtering waste"
+                    "Conus arteriosus",
+                    "Truncus arterosus",
+                    "Columnae carneae",
+                    "Chordae tendineae"
                 ),
-                "Transporting oxygen"
+                "Columnae carneae"
             ),
 
             Question(
-                "Which component of blood is responsible for carrying oxygen?",
-                arrayOf("Plasma", "Red blood cells", "White blood cells", "Platelets"),
-                "Red blood cells"
+                "The hormonal regulation of cardiac output is",
+                arrayOf("mediated by the adrenal medulla", "Red blood cells", "mediated by pineal", "Platelets"),
+                "mediated by the adrenal medulla"
             ),
 
             Question(
-                "What is the liquid part of blood that carries nutrients, hormones, and waste products?",
-                arrayOf("Red blood cells", "Plasma", "Platelets", "White blood cells"),
-                "Plasma"
+                "The location of the neuro centre activity of the heart is",
+                arrayOf("Midbrain", "Cerebrum", "Medulla Oblongata", "White blood cells"),
+                "Medulla Oblongata"
             ),
 
             Question(
-                "Which blood type is known as the 'universal donor'?",
-                arrayOf("A", "B", "AB", "O"),
-                "O"
+                "The tricuspid valve is present between?",
+                arrayOf("Ventricle and pulmonary artery", "Ventricle and aorta", " left auricle and left ventricle", "right auricle and right ventricle"),
+                "right auricle and right ventricle"
             ),
 
             Question(
@@ -68,9 +68,9 @@ class Utils {
             ),
 
             Question(
-                "What is the average lifespan of a red blood cell in the human body?",
-                arrayOf("30 days", "60 days", "90 days", "120 days"),
-                "120 days"
+                "Bundle of His is a network of",
+                arrayOf("Muscle fibres present only in the ventricle wall", "muscle fibres distributed throughout the heart walls", "nerve fibres found throughout the heart", "Nerve fibres distributed in ventricles"),
+                "Muscle fibres present only in the ventricle wall"
             ),
 
             Question(

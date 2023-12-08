@@ -30,7 +30,7 @@ class VideoFragment : Fragment() {
 
         youtubePlayerView.addYouTubePlayerListener(object : AbstractYouTubePlayerListener() {
             override fun onReady(youTubePlayer: YouTubePlayer) {
-                val videoId = "tXw6dE-_V24"
+                val videoId = "78kqFvmN64k"
                 youTubePlayer.loadVideo(videoId, 0f)
             }
         })
